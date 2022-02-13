@@ -5,7 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.core.view.WindowCompat
 import ru.fitsuli.doubletapp.databinding.ActivityNoConfigChangeBinding
 
-class ActivityNoConfigChange : ComponentActivity() {
+class ActivityNoConfigChange : LoggingActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         WindowCompat.setDecorFitsSystemWindows(window, false)

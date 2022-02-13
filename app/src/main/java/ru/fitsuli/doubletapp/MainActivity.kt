@@ -1,13 +1,15 @@
 package ru.fitsuli.doubletapp
 
+import android.R.attr.tag
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.core.view.WindowCompat
 import ru.fitsuli.doubletapp.databinding.ActivityMainBinding
 
-class MainActivity : ComponentActivity() {
+class MainActivity : LoggingActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
